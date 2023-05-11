@@ -418,10 +418,10 @@ body {
   background: linear-gradient(to right, #008736, #3b7bbf) border-box;
   color: #fff;
   border-radius: 48px;
-  border: 24px solid transparent;
+  border: 12px solid transparent;
   transition-duration: 0.4s;
   cursor: pointer;
-  font-size: 24px;
+  font-size: 16px;
 }
 
 .buttonBook:hover {
@@ -523,7 +523,6 @@ img {
 /* video */
 
 video {
-  width: 280px;
-  height: 500px;
+  width: 100%;
   border-radius: 24px;
 }
