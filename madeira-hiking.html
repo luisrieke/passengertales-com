@@ -61,7 +61,7 @@
 
 						<div class="two">
 
-							<h3>🥾 explore Madeira by foot</h3>
+							<h3>🥾 Explore Madeira by foot</h3>
 							<p>Let me show you the incredible landscapes and hidden gems that Madeira has to offer.
 								Whether you're a seasoned hiker or a beginner, I have an expedition that will suit your
 								needs.</p>
@@ -73,9 +73,10 @@
 							<p>So what are you waiting for? Book your adventure with me now and let's embark on a
 								journey that will leave you with unforgettable memories.</p>
 
-							<button class="buttonBook"
-								onclick="window.location.href='mailto:luis.rieke@spacifik.com';">plan your
-								expedition now</button>
+							<div class="button-container-div">
+								<button class="buttonBook" onclick="sendEmail()">Book
+									now 🏕️</button>
+							</div>
 
 						</div>
 					</div>
@@ -86,5 +87,14 @@
 	</section>
 
 </body>
+
+<script>
+	function sendEmail() {
+		var email = 'luis.rieke@passengertales.com';
+		var subject = 'Book Expedition';
+		var message = 'Please provide me the dates which work best for you: [your preferred expedition dates] \n\nI will reach out to you as soon as possible to confirm the booking.\n\nExcited to go on adventures together!';
+		window.location.href = 'mailto:' + email + '?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(message);
+	}
+</script>
 
 </html>

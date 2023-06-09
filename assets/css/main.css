@@ -412,7 +412,7 @@ body {
   background: linear-gradient(to right, #c4def9, #e2e4ec) border-box;
 }
 
-/* paypal button */
+/* booking button madeira hiking */
 
 .buttonBook {
   background: linear-gradient(to right, #008736, #3b7bbf) border-box;
@@ -421,7 +421,9 @@ body {
   border: 12px solid transparent;
   transition-duration: 0.4s;
   cursor: pointer;
-  font-size: 16px;
+  font-size: 18px;
+  margin: 2rem 0;
+  text-align: center;
 }
 
 .buttonBook:hover {
@@ -430,50 +432,33 @@ body {
   transform: translateY(-0.25em);
 }
 
-/* switch languages on reading page */
-
-a.buttonLanguage {
-  border-radius: 48px;
-  display: inline-block;
-  margin: 10px 10px 0 0;
-  padding: 0 20px;
-  background-color: #e2e4ec;
-  color: #fff;
-  line-height: 50px;
+.button-container-div {
   text-align: center;
-  text-decoration: none;
 }
 
-a.active {
-  background-color: #c4def9;
+/* button on start page */
+
+.buttonStart {
+  background: linear-gradient(to right, #008736, #3b7bbf) border-box;
+  color: #fff;
+  border-radius: 48px;
+  border: 6px solid transparent;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  font-size: 16px;
+  margin-bottom: 2rem;
 }
 
-.contentLanguage {
-  margin-top: 30px;
-}
-
-div[class*="contentLanguage-"] {
-  display: none;
-}
-
-div.active {
-  display: block;
-}
-
-/* gifs */
-
-.gif-embed {
-  margin: 0 auto;
-  display: block;
-  margin-bottom: 64px;
-  border-radius: 164px;
-}
-
-@media screen and (max-width: 980px) {
-  .gif-embed {
-    width: 100%;
-    height: auto;
+@media screen and (min-width: 480px) {
+  .buttonStart {
+    margin-left: 30px;
   }
+}
+
+.buttonStart:hover {
+  background: linear-gradient(to right, #48a41d, #61b4c9) border-box;
+  box-shadow: 0 0.5em 0.5em -0.4em #a9cef5;
+  transform: translateY(-0.25em);
 }
 
 /* small text */
