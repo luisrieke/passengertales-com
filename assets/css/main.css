@@ -1,28 +1,20 @@
 /* Basic */
 
 html {
-  min-height: 100%;
+  min-height: 100vh;
 }
 
 body {
   background-attachment: scroll;
   background-size: auto;
   background-position: top;
+  margin: 0;
 }
 
-@media screen and (max-width: 2000px) {
-  html,
-  body {
-    min-width: 320px;
-    padding: 2% 0 2%;
-  }
-}
-
-@media screen and (min-width: 2000px) {
-  html,
-  body {
-    padding: 4% 0 4%;
-  }
+.wrap {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 /* Typo */
@@ -82,9 +74,6 @@ textarea {
 }
 
 @media screen and (min-width: 480px) {
-  p {
-    margin: 0 0 2rem 0;
-  }
   .text-inner {
     padding-left: 40px;
   }
@@ -227,6 +216,10 @@ body {
 }
 
 /* Main */
+
+#main {
+  flex-grow: 1;
+}
 
 #main > .inner {
   margin: 0 auto;
@@ -538,4 +531,32 @@ td {
 
 .table-date {
   text-decoration: underline;
+}
+
+/* footer */
+
+/* Footer Styles */
+footer {
+  background-color: #f2f2f22a;
+  padding: 10px;
+  width: 100%;
+  text-align: center;
+  margin-top: auto;
+}
+
+/* @media screen and (min-width: 480px) {
+  footer {
+    position: fixed;
+    bottom: 0;
+  }
+} */
+
+.footer-text {
+  font-size: 12px;
+  color: #7d95af;
+}
+
+.footer-text > a {
+  font-size: 12px;
+  color: #7d95af;
 }
