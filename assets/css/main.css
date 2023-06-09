@@ -170,7 +170,7 @@ ul {
 /* Background moving gradient */
 
 body {
-  background: linear-gradient(-45deg, #c4def9, #e9e5d8, #cbebff, #ffc4e1);
+  background: linear-gradient(-45deg, #c4def9, #e9e5d8, #cbebff, #c4ffcd);
   background-size: 200% 200%;
   animation: gradient 12s ease infinite;
 }
@@ -390,7 +390,11 @@ body {
   }
 }
 
-/* 404 button */
+/* 404 page */
+
+#margin404page {
+  margin: 8rem 0;
+}
 
 .button404 {
   background: linear-gradient(to right, #e3dec9, #c9e5e0) border-box;
