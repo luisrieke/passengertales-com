@@ -1,0 +1,110 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<!-- HTML Meta Tags -->
+	<title>Guided Alps Crossing ⛰️</title>
+	<meta name="description" content="Book an alps crossing">
+
+	<meta name="keywords"
+		content="Alps, Tour Guide, Hiking, Mountaineering, Expedition, Crossing, Adventure, Nature, Alpine, Alps Crossing, Mountain Trekking, Tour Packages">
+	<meta name="robots" content="index, follow">
+	<meta name="language" content="English">
+	<meta name="author" content="Luis Rieke">
+
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet" href="../assets/css/main.css" />
+	<link rel="shortcut icon" href="../assets/images/favicon.ico">
+
+	<!-- Facebook Meta Tags -->
+	<meta property="og:url" content="https://passengertales.com">
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="Guided Alps Crossing Tours 🏔️">
+	<meta property="og:description" content="Embark on an epic alpine adventure">
+	<meta property="og:image" content="https://passengertales.com/assets/images/passengertales.png">
+
+	<!-- Twitter Meta Tags -->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta property="twitter:domain" content="passengertales.com">
+	<meta property="twitter:url" content="https://passengertales.com">
+	<meta name="twitter:title" content="Guided Alps Crossing Tours 🏔️">
+	<meta name="twitter:description" content="Embark on an epic alpine adventure">
+	<meta name="twitter:image" content="https://passengertales.com/assets/images/passengertales.png">
+
+</head>
+
+<body>
+
+	<button class="button" onclick="window.location.href='/';">← back home</button>
+
+	<div class="wrap">
+
+		<section id="main">
+
+			<div class="headline">
+				<p>Guided Alps Crossing 🏔️</p>
+				<p class="headline-small">book an epic alpine adventure</p>
+			</div>
+
+			<div class="inner">
+
+				<section id="one" class="wrapper style1">
+
+					<header class="special">
+
+						<div class="wrapper">
+							<div class="one">
+
+								<video controls autoplay muted>
+									<source src="../assets/videos/alps.MP4" type="video/mp4">
+									alt="Book Guided Alps Crossing Tours"
+									Your browser does not support the video tag.
+								</video>
+
+							</div>
+
+							<div class="two">
+
+								<h3>🏔️ Embark on an Epic Alps Crossing Adventure</h3>
+								<p>Let me guide you through the breathtaking landscapes and awe-inspiring peaks of the
+									Alps. Whether you're an experienced mountaineer or a novice adventurer, I have a
+									crossing tour that will cater to your skills and preferences.</p>
+
+								<p>Challenge yourself with treks along rugged mountain paths, traverse glacier fields,
+									and experience the thrill of reaching new heights. You'll witness majestic alpine
+									vistas, explore pristine valleys, and immerse yourself in the beauty of this
+									magnificent mountain range.</p>
+
+								<div class="button-container-div">
+									<button class="buttonBook" onclick="sendEmail()">Book
+										now 🏕️</button>
+								</div>
+
+							</div>
+						</div>
+
+					</header>
+				</section>
+			</div>
+		</section>
+
+		<footer>
+			<p class="footer-text">© Passengertales. All rights reserved. <a href="/imprint">Imprint</a>. <a
+					href="mailto:luis.rieke@passengertales.com">Get in touch</a>.</p>
+		</footer>
+
+	</div>
+
+</body>
+
+<script>
+	function sendEmail() {
+		var email = 'luis.rieke@passengertales.com';
+		var subject = 'Book Expedition';
+		var message = 'Please provide me the dates which work best for you: [your preferred expedition dates] \n\nI will reach out to you as soon as possible to confirm the booking.\n\nExcited to go on adventures together!';
+		window.location.href = 'mailto:' + email + '?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(message);
+	}
+</script>
+
+</html>

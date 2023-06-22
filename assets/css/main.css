@@ -417,7 +417,7 @@ body {
   border: 12px solid transparent;
   transition-duration: 0.4s;
   cursor: pointer;
-  font-size: 18px;
+  font-size: 24px;
   margin: 2rem 0;
   text-align: center;
 }
@@ -429,7 +429,31 @@ body {
 }
 
 .button-container-div {
+  text-align: right;
+}
+
+/* booking button madeira hiking */
+
+.buttonOverview {
+  background: linear-gradient(to right, #008736, #3b7bbf) border-box;
+  color: #fff;
+  border-radius: 48px;
+  border: 12px solid transparent;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  font-size: 18px;
+  margin: 1rem 0;
   text-align: center;
+}
+
+.buttonOverview:hover {
+  background: linear-gradient(to right, #48a41d, #61b4c9) border-box;
+  box-shadow: 0 0.5em 0.5em -0.4em #a9cef5;
+  transform: translateY(-0.25em);
+}
+
+.button-container-div-left {
+  text-align: left;
 }
 
 /* button on start page */
