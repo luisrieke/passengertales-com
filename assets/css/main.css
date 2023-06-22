@@ -500,7 +500,7 @@ img {
 
 /* grid on Home */
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 680px) {
   .wrapper {
     display: grid;
     gap: 48px;
