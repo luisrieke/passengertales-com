@@ -369,7 +369,6 @@ body {
 /* Back to homepage button */
 
 .button {
-  position: absolute;
   top: 0;
   left: 0;
   background: linear-gradient(to right, #e3dec9, #c9e5e0) border-box;
@@ -401,7 +400,7 @@ body {
   border-radius: 48px;
   border: 24px solid transparent;
   transition-duration: 0.4s;
-  margin: 20px 20px 20px 20px;
+  margin: 20px 20px 20px 0;
   cursor: pointer;
 }
 
